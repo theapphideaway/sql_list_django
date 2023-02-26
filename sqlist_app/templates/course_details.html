@@ -1,0 +1,8 @@
+{% block content %}
+<h1>Here is the student list for {{course.title}}:</h1>
+
+
+{% for student in students %}
+<h3>{{student.name}}</h3>
+{% endfor %}
+{% endblock %}
